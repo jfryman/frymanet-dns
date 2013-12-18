@@ -6,6 +6,14 @@
   "data": {
     "": {
       "ns": [ "ns1.ncd.io", "ns2.ncd.io", "ns3.ncd.io" ],
+      "mx": [{ "mx": "ASPMX.L.GOOGLE.COM.", "preference": 1},
+      { "mx": "ALT1.ASPMX.L.GOOGLE.COM.", "preference": 5},
+      { "mx": "ALT2.ASPMX.L.GOOGLE.COM.", "preference": 5},
+      { "mx": "ASPMX2.GOOGLEMAIL.COM.", "preference": 10},
+      { "mx": "ASPMX3.GOOGLEMAIL.COM.", "preference": 10},
+      { "mx": "ASPMX4.GOOGLEMAIL.COM.", "preference": 10},
+      { "mx": "ASPMX5.GOOGLEMAIL.COM.", "preference": 10}],
+     "txt": [{ "txt": "v=spf1 mx a:frymanet.com -all", "weight": 10}],
       "a": [["74.207.228.170",1]]
     },
     "google._domainkey": {
