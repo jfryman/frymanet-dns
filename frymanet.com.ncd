@@ -1,0 +1,50 @@
+{ "nc_version": 1.0, "nc_format": "json" },
+{
+  "serial": 2013121701,
+  "ttl": 86400,
+  "contact": "admin.frymanet.com",
+  "data": {
+    "": {
+      "ns": [ "ns1.ncd.io", "ns2.ncd.io", "ns3.ncd.io" ],
+      "mx": "ASPMX.L.GOOGLE.COM.", "weight": 1,
+      "mx": "ALT1.ASPMX.L.GOOGLE.COM.", "weight": 5,
+      "mx": "ALT2.ASPMX.L.GOOGLE.COM.", "weight": 5,
+      "mx": "ASPMX2.GOOGLEMAIL.COM.", "weight": 10,
+      "mx": "ASPMX3.GOOGLEMAIL.COM.", "weight": 10,
+      "mx": "ASPMX4.GOOGLEMAIL.COM.", "weight": 10,
+      "mx": "ASPMX5.GOOGLEMAIL.COM.", "weight": 10,
+      "txt": "v=spf1 mx a:frymanet.com -all", "weight": 10,
+      "a": [["74.207.228.170",1]]
+    },
+    "google._domainkey": {
+      "txt": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC52G0iuArIClWb0Puh+mPCJ496yetw5tvPq8D6EiI4L2snNrQhMrq5O4z9j8VlogkZ1b3sd9ehPnEj/e9yw/GQijJBYXgiZ4FeB+Qg1Z89BOZtczR7gYmykgTUoRwZGRy3JyIf7f2NionPL2K8202t1D6ixXLZAy8rKahLprLmEwIDAQAB", "weight": "10"
+    },
+    "argon": {
+      "a": [["50.194.1.173",1]]
+    },
+    "calendar": {
+      "cname": "ghs.google.com."
+    },
+    "christopher": {
+      "cname": "zinc.frymanet.com."
+    },
+    "mail": {
+      "cname": "ghs.google.com."
+    },
+    "nss2012-intro-to-ops": {
+      "cname": "myapp.herokuapp.com."
+    },
+    "puppet": {
+      "cname": "zinc.frymanet.com."
+    },
+    "wowsurvey": {
+      "cname": "jfryman.github.io."
+    },
+    "www": {
+      "cname": "jfryman.github.io."
+    },
+    "zinc": {
+      "a": [["74.207.228.170"]]
+    }
+  }
+}
