@@ -43,6 +43,9 @@
     "www": {
       "cname": "jfryman.github.io."
     },
+    "zuul-dev": {
+      "cname": "zuul-development.herokuapp.com."
+    },
     "zinc": {
       "a": [["74.207.228.170"]]
     }
